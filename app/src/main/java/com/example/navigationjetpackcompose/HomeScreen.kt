@@ -38,6 +38,6 @@ fun HomeScreen(navController: NavController) {
 @Composable
 fun PreviewGreeting() {
     HomeScreen(
-        navController = rememberNavController( )
+        navController = rememberNavController()
     )
 }
